@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>CASSIE</title>
+	<link rel="icon" type="image/png" href="img/favicon.png" />
+	<link rel="stylesheet" href=" css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilo.css">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:300italic,400,400italic,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<!-- intento de barra de navegación-->
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <!-- El logotipo y el icono que despliega el menú se agrupan
+       para mostrarlos mejor en los dispositivos móviles -->
+       <div class="container" id="barranav">
+		  	<div class="navbar-header">
+		    	<button type="button" class="navbar-toggle" data-toggle="collapse"
+		            data-target=".navbar-ex1-collapse">
+				      <!--<span class="sr-only">Desplegar navegación</span>-->
+				      <span class="glyphicon glyphicon-menu-hamburger"></span>
+		    	</button>
+		    <a class="navbar-brand" href="#"> 
+		    	<p id="tit">CASSIE</p> 
+		    </a>
+		  	</div>
+	  <!-- Agrupar los enlaces de navegación y colapsar -->
+	  		<div class="collapse navbar-collapse navbar-ex1-collapse">
+	    		<ul class="nav navbar-nav navbar-right">
+			      <li><a href="cv.html"><h4>Acerca de mi</h4></a></li>
+			      <hr id="enmedio">
+			      <li><a href="contacto.html"><h4>Contacto</h4></a></li>
+			    </ul>
+	  		</div>
+  		</div>
+	</nav>	
+<div>
+	<div class="parallax-window" data-parallax="scroll" data-image-src="img/textura.jpg" id="parallax">
+		<div class="container" id="textoIntro">
+			<div class="contenedorImg">
+				<img src="img/logotipo.png" alt="logo" class="logo"/>
+			</div>
+			<div id="separacion">
+				<p>DISEÑO GRÁFICO E ILUSTRACIÓN</p>
+			</div>
+		</div>
+	</div>
+	<div class="retrato">
+					<img src="img/yo.png" width="150px" height="150px"/>
+					<div class="mensaje">
+						<p id="hola">¡HOLA!</p>	
+				</div>
+	</div>
+
+	<div class="container" id="textoprincipal">
+		<h1>DISEÑEMOS JUNTOS</h1>
+		<div class="circulonegro"></div>
+		<h3>Tu pones la idea, yo la desarrollo.</h3>
+
+		<p class="parrafo">
+			Desde el nacimiento de tú idea hasta su aplicación final, unamos fuerzas y 
+			superpoderes, dejemos que la imagen de tu proyecto hable por tí. 
+		</p>
+		<br>
+		<button class="btn btn-link" id="estiloboton"> <a href="http://issuu.com/cassietheturtle/docs/revista2_c89f8e09795945" target="_blank" id="colorLink">VER MÁS</a> </button>
+	</div>
+</div>
+<!--Aqui empieza el parallax 2-->
+<div class="parallax-window" data-parallax="scroll" data-image-src="img/mexico.png" id="parallax2">
+	<div  class"slide">
+		<div>
+			<div id="carrusel2" class="carousel slide" data-ride="carousel">
+				<!--Indicadores-->
+				<ol class="carousel-indicators">
+					<li data-target="#carrusel1" data-slide-to="0" class="active"> </li>
+					<li data-target="#carrusel1" data-slide-to="1"> </li>
+					<li data-target="#carrusel1" data-slide-to="2"> </li>
+				</ol>
+				<!--Contenedor de los slides-->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<div class="container" id="anidado">
+							<div class="row">
+								<div class="col-xs-6 col-sm-4">
+									<img src="img/rayoverde.png" alt="rayoverde" id="rayover">
+								</div>
+								<div class="col-xs-6 col-sm-8">
+									<p id="alinear">Good design is obvious. Great design is transparent.</p>
+									<p id="citaFamosa">Joe Sparano</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container" id="anidado2">
+							<div class="row">
+								<div class="col-xs-6 col-sm-4">
+									<img src="img/diamanteverde.png" alt="diamanteverde" id="diaver">
+								</div>
+								<div class="col-xs-6 col-sm-8">
+									<p id="alinear2">The best ideas come as jokes.
+									Make your thinking as funny as possible.</p>
+									<p id="citaFamosa2">David Ogilvy</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container" id="anidado3">
+							<div class="row">
+								<div class="col-xs-6 col-sm-4">
+									<img src="img/lupaverde.png" alt="lupaverde" id="lupver">
+								</div>
+								<div class="col-xs-6 col-sm-8">
+									<p id="alinear3">If you can’t solve a problem, it’s because you’re playing by the rules.</p>
+									<p id="citaFamosa3">Paul Arden</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Controles -->
+				<a href="#carrusel2" class="left carousel-control" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only"> Anterior </span>
+				</a>
+				<a href="#carrusel2" class="right carousel-control" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only"> Siguiente </span>
+				</a>
+			</div>
+		</div>	
+	</div>
+	
+</div>
+<!--Aqui termina-->
+<!--Aqui empieza mis 6 columnas-->
+<br>
+<div class="container">
+	<div>
+		<h2>METODOLOGÍA</h2>
+		<div class="circulonegro"></div>
+		<h3>Hacer que un trozo de carbón se convierta en diamante.</h3>
+		<p class="parrafo">Garantiza el éxito de tu proyecto a través de su imagen.</p>
+	</div>
+	<br>
+	<div class="row" id="columnas">
+		<div class="col-xs-12 col-sm-6 col-md-2">
+			<img src="img/piedra.png" alt="piedra" class="icono">
+			<p>Tu idea</p>
+		</div>	
+		<div class="col-xs-12 col-sm-6 col-md-2 ">
+			<img src="img/ojo.png" alt="ojo" class="icono">
+			<p>Se visualiza</p>
+		</div>	
+		<div class="col-xs-12 col-sm-6 col-md-2 ">
+			<img src="img/lupa.png" alt="lupa" class="icono">
+			<p>Se investiga</p>
+		</div>	
+		<div class="col-xs-12 col-sm-6 col-md-2 ">
+			<img src="img/calendario.png" alt="calendario" class="icono">
+			<p>Se planea</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-2 ">
+			<img src="img/rayo.png" alt="rayo" class="icono">
+			<p>Se ejecuta</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-2 ">
+			<img src="img/diamante.png" alt="diamante" class="icono">
+			<p>Resultado Final</p>
+		</div>			
+	</div>
+</div>
+<!--Aqui terminan mis 6 columnas-->
+<!--Aquí inicia el slider-->
+
+	<div class"slide" id="slider">
+		<div>
+			<div id="carrusel1" class="carousel slide" data-ride="carousel">
+				<!--Indicadores-->
+				<ol class="carousel-indicators">
+					<li data-target="#carrusel1" data-slide-to="0" class="active"> </li>
+					<li data-target="#carrusel1" data-slide-to="1"> </li>
+					<li data-target="#carrusel1" data-slide-to="2"> </li>
+					<li data-target="#carrusel1" data-slide-to="3"> </li>
+					<li data-target="#carrusel1" data-slide-to="4"> </li>
+				</ol>
+				<!--Contenedor de los slides-->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="img/ids.png" alt="ids" class="img-responsive"/>
+					</div>
+					<div class="item">
+						<img src="img/slide2.png" alt="keepit" class="img-responsive"/>
+					</div>
+					<div class="item">
+						<img src="img/tiamerica.png" alt="tiamerica" class="img-responsive"/>
+					</div>
+					<div class="item">
+						<img src="img/bizarro.png" alt="bizarro" class="img-responsive"/>
+					</div>
+					<div class="item">
+						<img src="img/pollomoc.png" alt="pollo" class="img-responsive"/>
+					</div>
+				</div>
+				<!-- Controles -->
+				<a href="#carrusel1" class="left carousel-control" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only"> Anterior </span>
+				</a>
+				<a href="#carrusel1" class="right carousel-control" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only"> Siguiente </span>
+				</a>
+			</div>
+		</div>	
+	</div>
+	<!--Aqui termina el slider-->
+	<!--Aqui empiezan las ventanitas-->
+
+<div class="container">
+	<div class="espacio">
+		<h2>MIS CONOCIMIENTOS</h2>
+		<br>
+		<p class="parrafo">[ TRES AÑOS DE EXPERIENCIA EN AGENGIA  //  CAPACITACIÓN CONSTANTE  //  SIEMPRE EN BUSCA DE RETOS ]</p>
+	</div>
+	<br>
+	<!--Primer ventana-->
+		<div class="row" >
+		  <div class="col-sm-6 col-md-3">
+		    <div class="ventana">
+		      <img src="img/dev.png" alt="dev" class="logoescuela">
+		      <div>
+		        <h3>Escuela de hackers Dev.F </h3>
+		        <p class="parrafoVentana"> Desarrollo web, categoría Cinta Blanca. </p>
+		        <p class="subparrafo"> HTML5 / CSS3 / JAVASCRIPT</p>
+		      </div>
+		    </div>
+		  </div>
+		<!--Segunda ventana-->
+		  <div class="col-sm-6 col-md-3">
+		    <div class="ventana">
+		      <img src="img/ibero.png" alt="ibero" class="logoescuela">
+		      <div class="caption">
+		        <h3>Universidad Iberoamericana</h3>
+		        <p class="parrafoVentana">Diplomado Publicidad: Estrategia creativa y calidad.</p>
+		        <p class="subparrafo"> PUBLICIDAD / MARKETING</p>
+		      </div>
+		    </div>
+		  </div>
+		<!--Tercer ventana-->
+		  <div class="col-sm-6 col-md-3">
+		    <div class="ventana">
+		      <img src="img/canta.png" alt="canta" class="logoescuela">
+		      <div class="caption">
+		        <h3>Universidad de Cantabria</h3>
+		        <p class="parrafoVentana">Curso online práctico, Técnicas de Creatividad</p>
+		        <p class="subparrafo"> CREATIVIDAD </p>
+		      </div>
+		    </div>
+		  </div>
+		  <!--Cuarta ventana-->
+		  <div class="col-sm-6 col-md-3">
+		    <div class="ventana">
+		      <img src="img/unam.png" alt="fad" class="logoescuela">
+		      <div >
+		        <h3>Facultad de Artes y Diseño</h3>
+		        <p class="parrafoVentana">Curso: El cartel y su aplicación en el diseño.</p>
+		        <p class="subparrafo"> DISEÑO / ILUSTRACIÓN </p>
+
+		      </div>
+		    </div>
+		  </div>
+		</div>
+</div>
+<!--Aqui terminan las ventanitas-->	
+
+	<footer>
+		<div class="container">
+			<p class="parrafoFooter"> MIS REDES</p>
+			<table class="tabla">
+				<tr>
+				  <td><a href="http://hellocassietheturtle.tumblr.com/" target="_blank"><img src="img/tumbler.png" alt="tumbler"/></a></td>
+				  <td><a href="https://www.linkedin.com/in/sandrapehdz" target="_blank"><img src="img/linke.png" alt="linke"/></td>
+				  <td><a href="https://instagram.com/cassiopeaturtle/" target="_blank"><img src="img/insta.png" alt="instagram"/></a></td>
+				</tr>
+			</table>
+	 	</div>
+	</footer>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/parallax.min.js"></script>
+</body>
+</html>

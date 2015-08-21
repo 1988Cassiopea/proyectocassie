@@ -1,0 +1,415 @@
+.container{
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+}
+
+.circulonegro{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #000;
+	margin: 0 auto;
+}
+
+h1{
+	text-align: center;
+	font-size: 3.5em;
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+}
+
+h2{
+	font-size: 3em;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+h3{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 1.5em;
+	color: #45cdc8;
+	text-align: center;
+}
+
+h4{
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	color:#747474;
+}
+
+h4:hover{
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	color:#45cdc8;
+}
+
+h5{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 1.5em;
+	color: #b894c4;
+	text-align: center;
+}
+
+#tit{
+	margin-top: 6px;
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 1.7em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #000;
+}
+
+#tit:hover{
+	color: #747474;
+}
+
+.parrafo{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #747474;
+	font-size: 1.3em;
+}
+
+nav.navbar {
+    background: #fff;
+    border-bottom: 0;
+    box-shadow: 1px 1px 6px #999;
+    height: 60px;
+}
+
+nav.navbar ul.nav li {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.05em;
+
+}
+
+hr#enmedio{
+	display:none;
+	height: 1px;
+
+}
+
+#color{
+	color:#000;
+}
+
+
+.navbar-toggle{
+	border: 0px;
+	border-radius:0px;
+	margin: 0px;
+	background: #45cdc8;
+	color:#fff;
+	font-size: 23px;
+	width: 60px;
+	height: 60px;
+}
+}
+
+#parallax{
+	min-height: 650px;
+    background: transparent;
+   box-shadow: inset 1px 1px 10px #999;
+}
+
+#parallax2{
+	min-height: 400px;
+    background: transparent;
+}
+
+#parallax3{
+	min-height: 450px;
+    background: transparent;
+   box-shadow: inset 1px 1px 10px #999;
+}
+
+#anidado{
+	margin-top: 10em;
+	color:#fff;
+	width: 80%;
+	margin-left: 5em;
+}
+
+#anidado2{
+	margin-top: 10em;
+	color:#fff;
+	width: 80%;
+	margin-left: 5em;
+}
+#anidado3{
+	margin-top: 10em;
+	color:#fff;
+	width: 80%;
+	margin-left: 5em;
+}
+
+#rayover{
+	float:right;
+	height: 100px;
+}
+
+#diaver{
+	float:right;
+	height: 100px;
+}
+
+#lupver{
+	float:right;
+	height: 100px;
+}
+
+#alinear{
+	text-align:left;
+	font-size: 30px;
+	letter-spacing: 0.1em;
+	text-shadow: 0.05em 0.1em #333;
+}
+
+#alinear2{
+	text-align:left;
+	font-size: 30px;
+	letter-spacing: 0.1em;
+	text-shadow: 0.05em 0.1em #333;
+}
+
+#alinear3{
+	text-align:left;
+	font-size: 30px;
+	letter-spacing: 0.1em;
+	text-shadow: 0.05em 0.1em #333;
+}
+
+#citaFamosa{
+	color:#fff;
+	text-align: right;
+	font-size: 18px;
+	font-family: 'Varela Round', sans-serif;
+	letter-spacing: 0.05em;
+	text-shadow: 0.1em 0.1em #333;
+}
+
+#citaFamosa2{
+	color:#fff;
+	text-align: right;
+	font-size: 18px;
+	font-family: 'Varela Round', sans-serif;
+	letter-spacing: 0.05em;
+	text-shadow: 0.1em 0.1em #333;
+}
+
+#citaFamosa3{
+	color:#fff;
+	text-align: right;
+	font-size: 18px;
+	font-family: 'Varela Round', sans-serif;
+	letter-spacing: 0.05em;
+	text-shadow: 0.1em 0.1em #333;
+}
+#carrusel2{
+	min-height: 400px;
+}
+
+
+#textoIntro{
+	padding-top: 3.5em;
+	text-align: center;
+	font-size: 2em;
+}
+
+.contenedorImg{
+	max-width: 400px;
+	max-height: 400px;
+	margin: 0 auto;
+
+}
+
+.logo{
+	height: auto;
+	width: 100%;
+}
+
+#separacion{
+	padding-top: 1em;
+}
+
+
+.retrato{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin: 2em auto;
+	overflow: hidden;
+}
+.retrato:hover .mensaje{
+		-webkit-transform: translateY(-150px);
+
+ }
+
+img{
+	-webkit-transtition: -webkit-transform 300ms;
+}
+
+.mensaje{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background: rgba(00, 00, 00, 0.7);
+	-webkit-transtition: -webkit-transform 300ms;
+}
+
+#hola{
+	padding-top: 2em;
+	font-size: 2em;
+	text-align: center;
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0.1em;
+}
+
+
+#textoprincipal{
+	background-color: #f6f6f6;
+	max-height: 35em;
+	width: 100%;
+	padding: 3em;
+	text-align: center;
+}
+
+
+#estiloboton{
+	display:block;
+	border: 3px solid ;
+	margin: 0 auto;
+	width: 150px;
+	height: 40px;
+	color: #45cdc8;
+	font-size: 1.1em;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0.2em;
+}
+
+#estiloboton:hover{
+	box-shadow:0px 0px 6px #999;
+	text-decoration:none;  
+}
+
+#colorLink{
+	color: #45cdc8; 
+}
+
+
+#linea{
+	height: 8px;
+	margin-top: 1em;
+
+}
+
+#columnas{
+	text-align: center;
+
+}
+
+.icono{
+	text-align: center;
+	border-radius: 50%;
+	width: 9.3em;
+	height: 9.3em;
+	padding: 4px auto;
+	margin: 10px;
+	transition:all 0.3s ease 0s;	
+}
+
+.icono:hover {
+	transform:scale(1.07);
+	border: 5px solid #000;;
+	border-radius: 50%;
+
+}
+
+
+#slider{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.espacio{
+	margin-bottom: 10px;
+}
+
+
+.ventana{
+	border: 0;
+	color:#fff;
+	padding: 15px;
+	text-align: center;
+}
+
+.logoescuela{
+
+	text-align: center;
+}
+
+.parrafoVentana{
+	font-size: 17px;
+	font-family: 'Roboto',sans-serif;
+	text-align: center;
+	color:#747474;
+}
+
+.subparrafo{
+	font-size: 12px;
+	font-family: 'Montserrat',sans-serif;
+	text-align: center;
+	color:#086A87;
+
+}
+
+.parrafoFooter{
+	padding-top: 2em;
+	padding-bottom:.5em;
+	font-size: 16px;
+	font-family: 'Montserrat',sans-serif;
+	text-align: center;
+	color:#fff;
+	letter-spacing: 0.2em;
+
+}
+
+footer{
+	width: 100%;
+	height: 150px;
+	color:#fff;
+	background-color: #444444;
+}
+
+.tabla{
+	width: 200px;
+	text-align: center;
+	margin:  auto;
+}
+
+td:hover{
+	opacity:0.5;
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+	#barranav { background: #fff; }
+	hr#enmedio  {display:block;}
+	#anidado { margin-top: 5em; margin-right: 7em;}
+	#anidado2 { margin-top: 5em; margin-right: 7em;}
+	#anidado3 { margin-top: 5em; margin-right: 7em;}
+	#unamos{ font-size: 70px;  margin-top: 100px}
+}
+@media screen and (max-width: 550px){
+#alinear{ font-size: 18px;}
+#alinear2{ font-size: 18px;}
+#alinear3{ font-size: 18px;}
+#anidado { margin-top: 8em;margin-right: 4em}
+#anidado2 { margin-top: 8em;margin-right: 4em}
+#anidado3 { margin-top: 8em;margin-right: 4em}
+#unamos{ font-size: 40px; margin-top: 100px}
+}
