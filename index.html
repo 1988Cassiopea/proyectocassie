@@ -7,6 +7,7 @@
 	<link rel="icon" type="image/png" href="img/favicon.png" />
 	<link rel="stylesheet" href=" css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/estilo2.css">
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Roboto:300italic,400,400italic,300' rel='stylesheet' type='text/css'>
@@ -18,23 +19,15 @@
        para mostrarlos mejor en los dispositivos móviles -->
        <div class="container" id="barranav">
 		  	<div class="navbar-header">
-		    	<button type="button" class="navbar-toggle" data-toggle="collapse"
+		    	<!--<button type="button" class="navbar-toggle" data-toggle="collapse"
 		            data-target=".navbar-ex1-collapse">
-				      <!--<span class="sr-only">Desplegar navegación</span>-->
-				      <span class="glyphicon glyphicon-menu-hamburger"></span>
+				     <span class="sr-only">Desplegar navegación</span>-->
+				      <!--<span class="glyphicon glyphicon-menu-hamburger"></span>-->
 		    	</button>
 		    <a class="navbar-brand" href="#"> 
 		    	<p id="tit">CASSIE</p> 
 		    </a>
 		  	</div>
-	  <!-- Agrupar los enlaces de navegación y colapsar -->
-	  		<div class="collapse navbar-collapse navbar-ex1-collapse">
-	    		<ul class="nav navbar-nav navbar-right">
-			      <li><a href="cv.html"><h4>Acerca de mí</h4></a></li>
-			      <hr id="enmedio">
-			      <li><a href="contacto.html"><h4>Contacto</h4></a></li>
-			    </ul>
-	  		</div>
   		</div>
 	</nav>	
 <div>
@@ -61,8 +54,7 @@
 		<h3>Tu pones la idea, yo la desarrollo.</h3>
 
 		<p class="parrafo">
-			Desde el nacimiento de tú idea hasta su aplicación final, unamos fuerzas y 
-			superpoderes, dejemos que la imagen de tu proyecto hable por tí. 
+			Desde el nacimiento de tú idea hasta su aplicación final, unamos nuestra fuerza y dejemos que la imagen de tu proyecto hable por tí. 
 		</p>
 		<br>
 		<button class="btn btn-link" id="estiloboton"> <a href="http://issuu.com/cassietheturtle/docs/revista2_c89f8e09795945" target="_blank" id="colorLink">VER MÁS</a> </button>
@@ -70,71 +62,14 @@
 </div>
 <!--Aqui empieza el parallax 2-->
 <div class="parallax-window" data-parallax="scroll" data-image-src="img/mexico.png" id="parallax2">
-	<div  class"slide">
-		<div>
-			<div id="carrusel2" class="carousel slide" data-ride="carousel">
-				<!--Indicadores-->
-				<ol class="carousel-indicators">
-					<li data-target="#carrusel1" data-slide-to="0" class="active"> </li>
-					<li data-target="#carrusel1" data-slide-to="1"> </li>
-					<li data-target="#carrusel1" data-slide-to="2"> </li>
-				</ol>
-				<!--Contenedor de los slides-->
-				<div class="carousel-inner" role="listbox">
-					<div class="item active">
-						<div class="container" id="anidado">
-							<div class="row">
-								<div class="col-xs-6 col-sm-4">
-									<img src="img/rayoverde.png" alt="rayoverde" id="rayover">
-								</div>
-								<div class="col-xs-6 col-sm-8">
-									<p id="alinear">Good design is obvious. Great design is transparent.</p>
-									<p id="citaFamosa">Joe Sparano</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="container" id="anidado2">
-							<div class="row">
-								<div class="col-xs-6 col-sm-4">
-									<img src="img/diamanteverde.png" alt="diamanteverde" id="diaver">
-								</div>
-								<div class="col-xs-6 col-sm-8">
-									<p id="alinear2">The best ideas come as jokes.
-									Make your thinking as funny as possible.</p>
-									<p id="citaFamosa2">David Ogilvy</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="container" id="anidado3">
-							<div class="row">
-								<div class="col-xs-6 col-sm-4">
-									<img src="img/lupaverde.png" alt="lupaverde" id="lupver">
-								</div>
-								<div class="col-xs-6 col-sm-8">
-									<p id="alinear3">If you can’t solve a problem, it’s because you’re playing by the rules.</p>
-									<p id="citaFamosa3">Paul Arden</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Controles -->
-				<a href="#carrusel2" class="left carousel-control" role="button" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					<span class="sr-only"> Anterior </span>
-				</a>
-				<a href="#carrusel2" class="right carousel-control" role="button" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					<span class="sr-only"> Siguiente </span>
-				</a>
-			</div>
-		</div>	
+	<div class="row">
+		<div class="col-sm-12">
+			<p id="alinear">UNAMOS SUPERPODERES</p>
+		</div>
+		<div class="col-sm-12" id="diamante">
+			<img src="img/diamanteverde.png"/ alt="diamante" id="picdiamante"/>
+		</div>
 	</div>
-	
 </div>
 <!--Aqui termina-->
 <!--Aqui empieza mis 6 columnas-->
@@ -187,6 +122,9 @@
 					<li data-target="#carrusel1" data-slide-to="2"> </li>
 					<li data-target="#carrusel1" data-slide-to="3"> </li>
 					<li data-target="#carrusel1" data-slide-to="4"> </li>
+					<li data-target="#carrusel1" data-slide-to="5"> </li>
+					<li data-target="#carrusel1" data-slide-to="6"> </li>
+
 				</ol>
 				<!--Contenedor de los slides-->
 				<div class="carousel-inner" role="listbox">
@@ -205,6 +143,12 @@
 					<div class="item">
 						<img src="img/pollomoc.png" alt="pollo" class="img-responsive"/>
 					</div>
+					<div class="item">
+						<img src="img/logoasoc.png" alt="logo" class="img-responsive"/>
+					</div>
+					<div class="item">
+						<img src="img/galerial.jpg" alt="galeria" class="img-responsive"/>
+					</div>
 				</div>
 				<!-- Controles -->
 				<a href="#carrusel1" class="left carousel-control" role="button" data-slide="prev">
@@ -219,9 +163,56 @@
 		</div>	
 	</div>
 	<!--Aqui termina el slider-->
+
+	<!--Aquí empiezan clientes-->
+<div class="container" id="centrar">
+	<br>
+	<h5>CLIENTES CON LOS QUE HE TRABAJADO</h5>
+	<div class="row">
+		<div class="col-sm-6 col-md-2">
+			<img src="img/clientes/ap.png" alt="ap" class="clientespic"/>
+		</div>
+		<div class="col-sm-6 col-md-2">
+			<img src="img/clientes/santillana.png" alt="santillana" class="clientespic"/>
+		</div>
+		<div class="col-sm-6 col-md-2">
+			<img src="img/clientes/savi.jpg" alt="santillana" class="clientespic"/>
+		</div>
+		<div class="col-sm-6 col-md-2">
+			<img src="img/clientes/pony.png" alt="pony" class="clientespic"/>
+		</div>
+		<div class="col-sm-6 col-md-2">
+			<img src="img/clientes/pb.png" alt="pollo" class="clientespic"/>
+		</div>
+		<div class="col-sm-6 col-md-2">
+			<img src="img/clientes/marina.png" alt="procesa" class="clientespic"/>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-6 col-md-2">
+			<img src="img/clientes/ipsos.png" alt="ipsos" class="clientespic"/>
+		</div>
+		<div class="col-sm-6 col-md-2">
+			<img src="img/clientes/ids.png" alt="ids" class="clientespic"/>
+		</div>
+		<div class="col-sm-6 col-md-2">
+			<img src="img/clientes/icee.png" alt="icee" class="clientespic"/>
+		</div>
+		<div class="col-sm-6 col-md-2">
+			<img src="img/clientes/dti.png" alt="dti" class="clientespic"/>
+		</div>
+		<div class="col-sm-6 col-md-2">
+			<img src="img/clientes/tec.png" alt="tec" class="clientespic"/>
+		</div>
+		<div class="col-sm-6 col-md-2">
+			<img src="img/clientes/forbes.png" alt="forbes" class="clientespic"/>
+		</div>
+	</div>
+</div>
+
 	<!--Aqui empiezan las ventanitas-->
 
-<div class="container">
+<div class="container" id="misconocimientos">
 	<div class="espacio">
 		<h2>MIS CONOCIMIENTOS</h2>
 		<br>
@@ -277,18 +268,21 @@
 		</div>
 </div>
 <!--Aqui terminan las ventanitas-->	
-
+<!--Aquí empiezan mis datos de contacto-->
 	<footer>
-		<div class="container">
-			<p class="parrafoFooter"> MIS REDES</p>
-			<table class="tabla">
-				<tr>
-				  <td><a href="http://hellocassietheturtle.tumblr.com/" target="_blank"><img src="img/tumbler.png" alt="tumbler"/></a></td>
-				  <td><a href="https://www.linkedin.com/in/sandrapehdz" target="_blank"><img src="img/linke.png" alt="linke"/></td>
-				  <td><a href="https://instagram.com/cassiopeaturtle/" target="_blank"><img src="img/insta.png" alt="instagram"/></a></td>
-				</tr>
-			</table>
-	 	</div>
+		<section>
+			<div class="container">
+				<p class="parrafoFooter"> MIS REDES</p>
+				<table class="tabla">
+					<tr>
+					  <td><a href="http://hellocassietheturtle.tumblr.com/" target="_blank"><img src="img/tumbler.png" alt="tumbler"/></a></td>
+					  <td><a href="https://www.linkedin.com/in/sandrapehdz" target="_blank"><img src="img/linke.png" alt="linke"/></td>
+					  <td><a href="https://instagram.com/cassiopeaturtle/" target="_blank"><img src="img/insta.png" alt="instagram"/></a></td>
+					</tr>
+				</table>
+				<h4>Celular: 55 4846 0703</h4>
+		 	</div>
+		 </section>
 	</footer>
 
 

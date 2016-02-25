@@ -1,3 +1,4 @@
+
 .container{
 	font-family: 'Montserrat', sans-serif;
 	color: #000;
@@ -33,21 +34,20 @@ h3{
 
 h4{
 	font-size: 14px;
-	font-family: 'Montserrat', sans-serif;
-	color:#747474;
+	text-align: center;
+	font-family: 'Varela Round', sans-serif;
+	color:#fff;
+	letter-spacing: 0.1em;
+	padding-bottom: 1em;
 }
 
-h4:hover{
-	font-size: 14px;
-	font-family: 'Montserrat', sans-serif;
-	color:#45cdc8;
-}
 
 h5{
-	font-family: 'Varela Round', sans-serif;
-	font-size: 1.5em;
-	color: #b894c4;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	color: #45cdc8;
 	text-align: center;
+	letter-spacing: 0.1em;
 }
 
 #tit{
@@ -78,33 +78,11 @@ nav.navbar {
     height: 60px;
 }
 
-nav.navbar ul.nav li {
-    font-family: "Montserrat", sans-serif;
-    letter-spacing: 0.05em;
-
-}
-
-hr#enmedio{
-	display:none;
-	height: 1px;
-
-}
 
 #color{
 	color:#000;
 }
 
-
-.navbar-toggle{
-	border: 0px;
-	border-radius:0px;
-	margin: 0px;
-	background: #45cdc8;
-	color:#fff;
-	font-size: 23px;
-	width: 60px;
-	height: 60px;
-}
 }
 
 #parallax{
@@ -118,94 +96,28 @@ hr#enmedio{
     background: transparent;
 }
 
-#parallax3{
-	min-height: 450px;
-    background: transparent;
-   box-shadow: inset 1px 1px 10px #999;
-}
-
-#anidado{
-	margin-top: 10em;
-	color:#fff;
-	width: 80%;
-	margin-left: 5em;
-}
-
-#anidado2{
-	margin-top: 10em;
-	color:#fff;
-	width: 80%;
-	margin-left: 5em;
-}
-#anidado3{
-	margin-top: 10em;
-	color:#fff;
-	width: 80%;
-	margin-left: 5em;
-}
-
-#rayover{
-	float:right;
-	height: 100px;
-}
-
-#diaver{
-	float:right;
-	height: 100px;
-}
-
-#lupver{
-	float:right;
-	height: 100px;
-}
 
 #alinear{
-	text-align:left;
-	font-size: 30px;
+	padding-top: 3em;
+	padding-bottom: 1em;
+	font-size: 20em;
+	font-family: 'Montserrat', sans-serif;
+	text-align:center;
+	font-size: 50px;
+	color:#fff;
 	letter-spacing: 0.1em;
 	text-shadow: 0.05em 0.1em #333;
 }
 
-#alinear2{
-	text-align:left;
-	font-size: 30px;
-	letter-spacing: 0.1em;
-	text-shadow: 0.05em 0.1em #333;
+#diamante{
+	text-align: center;
+	margin-bottom: 4em;
 }
 
-#alinear3{
-	text-align:left;
-	font-size: 30px;
-	letter-spacing: 0.1em;
-	text-shadow: 0.05em 0.1em #333;
+#picdiamante{
+	height: 50px;
 }
 
-#citaFamosa{
-	color:#fff;
-	text-align: right;
-	font-size: 18px;
-	font-family: 'Varela Round', sans-serif;
-	letter-spacing: 0.05em;
-	text-shadow: 0.1em 0.1em #333;
-}
-
-#citaFamosa2{
-	color:#fff;
-	text-align: right;
-	font-size: 18px;
-	font-family: 'Varela Round', sans-serif;
-	letter-spacing: 0.05em;
-	text-shadow: 0.1em 0.1em #333;
-}
-
-#citaFamosa3{
-	color:#fff;
-	text-align: right;
-	font-size: 18px;
-	font-family: 'Varela Round', sans-serif;
-	letter-spacing: 0.05em;
-	text-shadow: 0.1em 0.1em #333;
-}
 #carrusel2{
 	min-height: 400px;
 }
@@ -274,6 +186,14 @@ img{
 	width: 100%;
 	padding: 3em;
 	text-align: center;
+}
+
+#misconocimientos{
+	background-color: #f6f6f6;
+	width: 100%;
+	padding: 3em;
+	text-align: center;
+	box-shadow: inset 1px 1px 10px #999;
 }
 
 
@@ -378,10 +298,12 @@ img{
 
 footer{
 	width: 100%;
-	height: 150px;
+	height: 180px;
 	color:#fff;
 	background-color: #444444;
 }
+
+
 
 .tabla{
 	width: 200px;
@@ -395,21 +317,3 @@ td:hover{
 }
 
 
-
-@media screen and (max-width: 767px) {
-	#barranav { background: #fff; }
-	hr#enmedio  {display:block;}
-	#anidado { margin-top: 5em; margin-right: 7em;}
-	#anidado2 { margin-top: 5em; margin-right: 7em;}
-	#anidado3 { margin-top: 5em; margin-right: 7em;}
-	#unamos{ font-size: 70px;  margin-top: 100px}
-}
-@media screen and (max-width: 550px){
-#alinear{ font-size: 18px;}
-#alinear2{ font-size: 18px;}
-#alinear3{ font-size: 18px;}
-#anidado { margin-top: 8em;margin-right: 4em}
-#anidado2 { margin-top: 8em;margin-right: 4em}
-#anidado3 { margin-top: 8em;margin-right: 4em}
-#unamos{ font-size: 40px; margin-top: 100px}
-}
